@@ -3,9 +3,9 @@
 int main()
 {
 	char password[20] = {0};
-	printf ("%s", "ÇëÊäÈëÃÜÂë£º");
+	printf ("%s", "è¯·è¾“å…¥å¯†ç ï¼š");
 	scanf ("%s", password);
-	printf ("%s", "ÇëÈ·ÈÏÃÜÂë(Y/N):");
+	printf ("%s", "è¯·ç¡®è®¤å¯†ç (Y/N):");
 	int try = 0;
 	while ((try = getchar()) !=  '\n')
 	{
@@ -22,4 +22,4 @@ int main()
 	}
 	printf("%s", password);
 	return 0;
-}//×îÖÕµÃµ½µÄÃÜÂëÖ»ÓĞ¿Õ¸ñÖ®Ç°µÄ
+}//æœ€ç»ˆå¾—åˆ°çš„å¯†ç åªæœ‰ç©ºæ ¼ä¹‹å‰çš„
