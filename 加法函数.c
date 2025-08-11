@@ -1,4 +1,4 @@
-#include <stdio.h>//º¯Êý
+#include <stdio.h>//ÂºÂ¯ÃŠÃ½
 int Add(int x, int y)
 {
 	return (x+y);
