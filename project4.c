@@ -14,3 +14,5 @@ int main()
 	printf("\a\a\a\a");
 	return 0;
 }
+
+//探究反斜杠在字符串中的作用
