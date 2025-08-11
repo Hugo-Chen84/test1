@@ -7,4 +7,4 @@ int main() {
     double b = sqrt(a);
     printf("%lf", b);
     return 0;
-}//求平方根
+}//脟贸脝陆路陆赂霉
