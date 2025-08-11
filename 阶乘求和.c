@@ -1,4 +1,4 @@
-//се╩╞╟Ф
+//ц⌠ц┘б╩б╞б╟ц╕
 #include<stdio.h>
 int main()
 {
