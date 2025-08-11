@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-	int arr[10] = { 0 };//此时数组里有10个0
+	int arr[10] = { 0 };//麓脣脢卤脢媒脳茅脌茂脫脨10赂枚0
 	int b = sizeof arr;
 	int c = sizeof arr[0];
 	printf("%d\n", b / c);
