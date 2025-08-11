@@ -10,6 +10,6 @@ int main()
 	{
 		result = result * i;
 	}
-	printf("%llu", result);//±ÜÃâÒç³ö
+	printf("%llu", result);//Â±ÃœÃƒÃ¢Ã’Ã§Â³Ã¶
 	return 0;
 }
