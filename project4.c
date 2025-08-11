@@ -4,7 +4,7 @@ int main()
 	char arr1[] = "abcedf";
 	char arr2[] = { 'a','b','c','d','e','f' };
 	printf(" % s\n", arr1);
-	printf(" % s\n", arr2);//按fn+f10,监视可发现不同。
+	printf(" % s\n", arr2);//掳麓fn+f10,藕艜臉脫偶脡藝藰膸脰藳钮脥殴膭艁
 	char arr3[] = { 'a','b','c','d','e','f','\0' };
 	printf(" % s\n", arr3);
 	int len1 = strlen(arr1);
