@@ -4,8 +4,8 @@
 
 int main() {
     double ret = 0, b = 0;
-    int ch;//¶ÁÈë
-    char op;//´æ´¢ÔËËã·û
+    int ch;//è¯»å…¥
+    char op;//å­˜å‚¨è¿ç®—ç¬¦
     while (1) {
         ch = getchar();
         if (ch == '=')
@@ -20,7 +20,7 @@ int main() {
             op = ch;
         }
         else
-            continue;//´¦ÀíÊäÈë
+            continue;//å¤„ç†è¾“å…¥
 
         if (ret && b) {
             if (op = '+')
@@ -34,8 +34,8 @@ int main() {
             else
                 ret = pow(ret, b);
 
-            b = 0;//ÖØÖÃ
-        }//·Ö±ğ¼ÆËã
+            b = 0;//é‡ç½®
+        }//åˆ†åˆ«è®¡ç®—
     }
 
     printf("%.4f\n", ret);
