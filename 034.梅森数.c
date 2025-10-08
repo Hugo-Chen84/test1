@@ -8,7 +8,7 @@ int check(int n)
             return 0;
     }
     return 1;
-}//ÅĞ¶ÏËØÊıº¯Êı,ËØÊı·µ»Ø1£¬ºÏÊı·µ»Ø0
+}//åˆ¤æ–­ç´ æ•°å‡½æ•°,ç´ æ•°è¿”å›1ï¼Œåˆæ•°è¿”å›0
 
 int main() {
     int n, max = 1;
@@ -20,7 +20,7 @@ int main() {
         if (check(num))
             printf("%.0f\n", num);
         totalcheck += check(num);
-    }//´òÓ¡ËØÊı²¢¼ÆËã
+    }//æ‰“å°ç´ æ•°å¹¶è®¡ç®—
 
     if (totalcheck == 0)
         printf("None");
