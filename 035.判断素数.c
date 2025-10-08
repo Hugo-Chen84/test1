@@ -9,12 +9,12 @@ int main()
 	{
 		if (n % i == 0)
 		{
-			printf("%d不是素数\n",n);
+			printf("%d虏禄脢脟脣脴脢媒\n",n);
 			break;
 		}
 		else if(i*i >=n)
 		{
-			printf("%d是素数\n", n);
+			printf("%d脢脟脣脴脢媒\n", n);
 			break;
 		}
 		else
