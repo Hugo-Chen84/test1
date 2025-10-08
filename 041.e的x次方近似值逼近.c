@@ -5,13 +5,13 @@ double fact(int n)
 {
     double ret = 1;
     if (n == 0) {
-        return 1.0;//ÌØÊâ¹æÔò
+        return 1.0;//ÃŒÃ˜ÃŠÃ¢Â¹Ã¦Ã”Ã²
     }
     for (int i = 1; i <= n; i++) {
         ret = ret * i;
     }
     return ret;
-}//½×³Ëº¯Êı
+}//Â½Ã—Â³Ã‹ÂºÂ¯ÃŠÃ½
 
 int main()
 {
