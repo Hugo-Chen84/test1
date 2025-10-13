@@ -4,7 +4,7 @@
 
 int main() {
     srand((unsigned int)time(NULL));
-    //随机数种子
+    //脣忙禄煤脢媒脰脰脳脫
 
     int ret = rand()%100+1;
     int input=0;
