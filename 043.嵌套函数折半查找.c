@@ -2,12 +2,12 @@
 #include<stdio.h>
 
 int binary_search(int arr[], int k, int sz);
-//²»¿ÉÖ±½Ó¼ÆËãÏîÊı
-//Êı×é´«ÖµÖ»´«Ê×µØÖ·
+//ä¸å¯ç›´æ¥è®¡ç®—é¡¹æ•°
+//æ•°ç»„ä¼ å€¼åªä¼ é¦–åœ°å€
 
 int main() {
 	int k = 0;
-	int arr[] = { 11,12,13,14,15,16,17,18,19 };//Ë³ĞòÊı×é
+	int arr[] = { 11,12,13,14,15,16,17,18,19 };//é¡ºåºæ•°ç»„
 	int sz = sizeof(arr) / sizeof(arr[0]);
 
 	printf("Please enter a number to check if it is in the list:\n");
@@ -30,7 +30,7 @@ int binary_search(int arr[], int k, int sz) {
 
 	while (left <= right) {
 		mid = left + (right - left) / 2;
-		//·ÀÖ¹×óÓÒÏÂ±êÖ®ºÍ¹ı´ó¶øµ¼ÖÂÒç³ö
+		//é˜²æ­¢å·¦å³ä¸‹æ ‡ä¹‹å’Œè¿‡å¤§è€Œå¯¼è‡´æº¢å‡º
 		
 		if (k < arr[mid]) {
 			right = mid - 1;
@@ -40,7 +40,7 @@ int binary_search(int arr[], int k, int sz) {
 		}
 		else
 			return mid;
-	}//Õı³£²éÕÒ½áÊøºóÔÚÑ­»·ÖĞÒÑÒÔmidĞÎÊ½·µ»ØÏÂ±ê
+	}//æ­£å¸¸æŸ¥æ‰¾ç»“æŸååœ¨å¾ªç¯ä¸­å·²ä»¥midå½¢å¼è¿”å›ä¸‹æ ‡
 	
-	return -1;//²éÕÒÊ§°ÜÊ±³ÌĞòÔÚ´Ë´¦ÖÕÖ¹
+	return -1;//æŸ¥æ‰¾å¤±è´¥æ—¶ç¨‹åºåœ¨æ­¤å¤„ç»ˆæ­¢
 }
