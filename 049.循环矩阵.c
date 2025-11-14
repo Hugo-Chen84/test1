@@ -8,32 +8,32 @@ int main() {
     int top = 0, bottom = n - 1, left = 0, right = n - 1;
 
     while (num <= n * n) {
-        // ´Ó×óµ½ÓÒÌî³äÉÏ±ß½ç
+        // ä»Žå·¦åˆ°å³å¡«å……ä¸Šè¾¹ç•Œ
         for (int i = left; i <= right; i++) {
             arr[top][i] = num++;
         }
         top++;
 
-        // ´ÓÉÏµ½ÏÂÌî³äÓÒ±ß½ç
+        // ä»Žä¸Šåˆ°ä¸‹å¡«å……å³è¾¹ç•Œ
         for (int i = top; i <= bottom; i++) {
             arr[i][right] = num++;
         }
         right--;
 
-        // ´ÓÓÒµ½×óÌî³äÏÂ±ß½ç
+        // ä»Žå³åˆ°å·¦å¡«å……ä¸‹è¾¹ç•Œ
         for (int i = right; i >= left; i--) {
             arr[bottom][i] = num++;
         }
         bottom--;
 
-        // ´ÓÏÂµ½ÉÏÌî³ä×ó±ß½ç
+        // ä»Žä¸‹åˆ°ä¸Šå¡«å……å·¦è¾¹ç•Œ
         for (int i = bottom; i >= top; i--) {
             arr[i][left] = num++;
         }
         left++;
     }
 
-    // Êä³ö·½Õó
+    // è¾“å‡ºæ–¹é˜µ
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             printf("%3d", arr[i][j]);
