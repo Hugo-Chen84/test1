@@ -1,0 +1,14 @@
+﻿  action.c
+D:\code\minesweeper\minesweeper\game.h(1,9): warning C4695: #pragma execution_character_set: 'gbk' 不是受支持的参数: 当前仅支持“UTF-8”
+  (编译源文件“action.c”)
+  
+  game.c
+D:\code\minesweeper\minesweeper\game.h(1,9): warning C4695: #pragma execution_character_set: 'gbk' 不是受支持的参数: 当前仅支持“UTF-8”
+  (编译源文件“game.c”)
+  
+  正在生成代码
+  4 of 16 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  minesweeper.vcxproj -> D:\code\minesweeper\x64\Release\minesweeper.exe
